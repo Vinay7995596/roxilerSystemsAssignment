@@ -1,0 +1,61 @@
+.table-container {
+    font-family: roboto;
+    font-size: 16px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    background-color: #f8df8c;
+  }
+  
+  th {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  td,
+  th {
+    border: 1px solid #000;
+    padding: 8px;
+  }
+  
+  .product-img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .pagination-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pagination-container button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  
+  
+  /* CSS */
+  .button-1 {
+    border-radius: 8px;
+    border-style: none;
+    background-color: #F082AC;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 16px;
+    text-align: center;
+    color: #000;
+  }
+  
+  .button-1:hover,
+  .button-1:focus {
+    background-color: #F082AC;
+  }
